@@ -111,5 +111,25 @@ var config = {
       ],
       onChapterExit: [],
     },
+    {
+      id: "colorado",
+      title: "Colorado",
+      image: "https://lh3.googleusercontent.com/kayfgwg0AZ0TU5e3fYntVnllm_pqQCm6IQeCfdMwrMROdTJnWFHYpHrh-PVSaD9nri4HBQ0fehLyRe9rLehVhEM9D1cltlw1ch9UJ_nhDgh1d-921h-Fd4w8QtnfuyJQYRJBA_Bth7spWHYuh-zNwJDMK5Y71lF_3TDUiUUu47fdasrxkJltIj6InntlegSPpCZ1rfcGrYj1VFNDNqc_q_KCMXsswqA0sYyNOr4T12VUY9zHeUAkezECxGpYerpelSxHLIq2IQ2Ck3DnbtwYhz5B_nmXRDNbMSuLqGRgqGkVc5zHdISzAmISQyQsmjGyjgLJ9x0A7z-9RhEEybY17w-ARaJbU0zMt9k8oRnS1xuWVMvgJ3vmOMPBLKIMTfR1knwHemPJz2XwnoiPCW0-zXxr9IWKi6awCHZrxTNJRJv0eRbfh-39H7-IDYlUr8qxHcnCsjHVD2uolqDFH2N5PgimCfr1otIYNIikNa3F2OVxRSjZ5bEEdaSXz5HNljTgq6oZtIEqBJYZygfmUGarXcXoJoGC5u4Robk3mL9jJTji8jbIPUaJDZS4jAb6mCKFvCZOSS7IaU57t4T3C0-aP4PkVWh0EmmBIALDuKtqNobhE_5zfiK_b7izIlFvZbKeGAPSFr8wGyPA8VufGpY4YtFQiz5q_Ii5m4dVGc5F5E2N6ynO8pjWljemxjBI0Q=w1248-h936-no?authuser=0",
+      description:
+        "Once I made the move to Colorado I dedicated my time to learning new skills. I enrolled in a development bootcamp in Boulder to learn web development. This decision has set my skills to a greater level, and has made me eager to keep learning. Once I graduated from the development courses I continued to further my skills and grasp the spatial side of things. I contracted through CBI Engineering for the City of Denver, where I was part of a small team to map out and collect street light data for the entire county. </br><b>Technologies Used:</b> ArcGIS Collector, ArcMap, QGIS, ArcGIS SDE, FME.</br></br>After CBI, I was hired on at Frontier where I now work as Database Administrator, and GIS Analyst. I design and create Postgres Databases, create workflows for fellow analyst to use, help develop a (desktop) analysis web tool for clients to have control of live data while viewing it on webmap.</br><b>Technologies Used:</b> PostgreSQL\PostGIS, FME, QGIS, ArcGIS, GDAL(OGR), GeoServer, Alteryx, NodeJS, Oracle,MapBox, MyWorld by UbiSense, Leaflet, TurfJS, Google Cloud SQL and Compute, Heroku, AWS.",
+      location: {
+        center: [-104.964, 39.7548],
+        zoom: 8,
+        pitch: 0,
+        bearing: 0,
+      },
+      onChapterEnter: [
+        {
+          layer: "Work_locations",
+          ids: [2,4,10],
+        },
+      ],
+      onChapterExit: [],
+    },
   ],
 };
