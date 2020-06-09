@@ -81,6 +81,17 @@
         "type": "Feature",
         "geometry": {
             "type": "Point",
+            "coordinates": [-104.985862, 39.745783]
+        },
+        "properties": {
+            "place_name": "Denver Public Schools",
+            "details": "<i>Senior Analyst</i></br>  Technology used:",
+            "id": 12
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
             "coordinates": [-80.659707, 28.320007]
         },
         "properties": {
